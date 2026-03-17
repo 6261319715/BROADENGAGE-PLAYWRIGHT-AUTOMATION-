@@ -1,0 +1,60 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - button "Go to dashboard" [ref=e8] [cursor=pointer]:
+          - img "Logo" [ref=e10]
+        - button "Open search and help" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: ⌘
+          - generic [ref=e14]: Ask AI or search...
+          - generic [ref=e15]: AI
+        - generic [ref=e16]:
+          - button "Open BE-Bot assistant" [ref=e17] [cursor=pointer]:
+            - img [ref=e18]
+          - button "User" [ref=e23] [cursor=pointer]:
+            - img "User" [ref=e24]
+    - generic [ref=e25]:
+      - complementary [ref=e26]:
+        - navigation [ref=e31]:
+          - button "Overview" [ref=e32] [cursor=pointer]:
+            - img [ref=e34]
+          - button "Recent Activity" [ref=e36] [cursor=pointer]:
+            - img [ref=e38]
+          - button "Datasets" [ref=e40] [cursor=pointer]:
+            - img [ref=e42]
+          - button "Segments" [ref=e45] [cursor=pointer]:
+            - img [ref=e47]
+          - button "Suppression" [ref=e52] [cursor=pointer]:
+            - img [ref=e54]
+          - button "Email" [ref=e56] [cursor=pointer]:
+            - img [ref=e58]
+          - button "SMS" [ref=e60] [cursor=pointer]:
+            - img [ref=e62]
+          - button "WhatsApp" [ref=e64] [cursor=pointer]:
+            - img [ref=e66]
+          - button "Offers" [ref=e68] [cursor=pointer]:
+            - img [ref=e70]
+          - button "Pools" [ref=e72] [cursor=pointer]:
+            - img [ref=e74]
+          - button "Create Journey" [ref=e76] [cursor=pointer]:
+            - img [ref=e78]
+          - button "Active Journeys" [ref=e84] [cursor=pointer]:
+            - img [ref=e86]
+          - button "Drafts" [ref=e88] [cursor=pointer]:
+            - img [ref=e90]
+          - button "Email Campaigns" [ref=e92] [cursor=pointer]:
+            - img [ref=e94]
+          - button "SMS Campaigns" [ref=e96] [cursor=pointer]:
+            - img [ref=e98]
+          - button "Users & Roles" [ref=e100] [cursor=pointer]:
+            - img [ref=e102]
+      - main [ref=e110]:
+        - generic [ref=e111]:
+          - generic [ref=e112]: ⚠️
+          - heading "Sorry, this page is currently unavailable." [level=2] [ref=e113]
+          - paragraph [ref=e114]: This section may be offline or temporarily unreachable. Please try again later or navigate to another page.
+  - alert [ref=e115]: /dashboard
+```

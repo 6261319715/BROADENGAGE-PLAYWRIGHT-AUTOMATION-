@@ -1,0 +1,50 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img "auth-logo" [ref=e7]
+        - generic [ref=e8]:
+          - paragraph [ref=e9]: Email Personalization at Scale -
+          - paragraph [ref=e10]: Data Insights from 10.9 Billion Sends
+          - paragraph [ref=e11]: Our Email Benchmarks Report reveals how
+          - paragraph [ref=e12]: personalization transforms engagement -
+          - paragraph [ref=e13]: and why it matters more than ever.
+      - img "auth-bg" [ref=e15]
+    - generic [ref=e17]:
+      - heading "Sign Up" [level=5] [ref=e18]
+      - generic [ref=e19]:
+        - textbox "Full Name" [ref=e22]
+        - textbox "Organisation Name" [ref=e25]
+        - textbox "Email ID" [ref=e28]
+        - textbox "Phone" [ref=e31]
+        - generic [ref=e33]:
+          - textbox "Password" [ref=e34]
+          - button [ref=e36] [cursor=pointer]:
+            - img [ref=e37]
+        - generic [ref=e39] [cursor=pointer]:
+          - generic [ref=e40]:
+            - checkbox "I agree to receive product updates and promotional emails from our company." [ref=e41]
+            - img [ref=e42]
+          - paragraph [ref=e44]: I agree to receive product updates and promotional emails from our company.
+        - iframe [ref=e50]:
+          - generic [ref=f1e2]:
+            - generic [ref=f1e3]:
+              - checkbox "I'm not a robot" [ref=f1e7]
+              - generic [ref=f1e11]: I'm not a robot
+            - generic [ref=f1e12]:
+              - generic [ref=f1e15]: reCAPTCHA
+              - generic [ref=f1e16]:
+                - link "Privacy" [ref=f1e17] [cursor=pointer]:
+                  - /url: https://www.google.com/intl/en/policies/privacy/
+                - text: "-"
+                - link "Terms" [ref=f1e18] [cursor=pointer]:
+                  - /url: https://www.google.com/intl/en/policies/terms/
+        - button "Sign Up" [ref=e51] [cursor=pointer]
+        - generic [ref=e52]:
+          - paragraph [ref=e53]: Already have an account? Sign In
+          - paragraph [ref=e54]: © 2026 BroadEngage. All rights reserved.
+  - alert [ref=e55]
+```

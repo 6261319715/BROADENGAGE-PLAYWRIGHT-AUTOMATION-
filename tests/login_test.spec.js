@@ -104,7 +104,8 @@ test.describe('Login Page - Submit & API', () => {
 		await page.getByRole('textbox', { name: 'Email ID' }).fill(VALID_EMAIL);
 		await page.getByPlaceholder('Password').fill('WrongPassword123');
 		await page.getByRole('button', { name: 'Log In' }).click();
-		await expect(page.getByRole('alert')).toContainText(/invalid|credentials|failed/i, { timeout: 10000 });
+		const errorAlert = page.getByRole('alert').filter({ hasText: /invalid|credentials|failed|password/i });
+		await expect(errorAlert).toBeVisible({ timeout: 10000 });
 	});
 
 	test('LI_03 - Unregistered email shows error', async ({ page }) => {
@@ -112,7 +113,9 @@ test.describe('Login Page - Submit & API', () => {
 		await page.getByRole('textbox', { name: 'Email ID' }).fill('notregistered@example.com');
 		await page.getByPlaceholder('Password').fill(VALID_PASSWORD);
 		await page.getByRole('button', { name: 'Log In' }).click();
-		await expect(page.getByRole('alert')).toBeVisible({ timeout: 10000 });
+		// Exclude Next.js route announcer (empty role="alert"); target the MUI error alert
+		const errorAlert = page.getByRole('alert').filter({ hasText: /.+/ });
+		await expect(errorAlert).toBeVisible({ timeout: 10000 });
 	});
 
 	test('Login button shows loading state while submitting', async ({ page }) => {

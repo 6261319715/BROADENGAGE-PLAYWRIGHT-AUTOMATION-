@@ -1,0 +1,119 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - button "Go to dashboard" [ref=e8] [cursor=pointer]:
+          - img "Logo" [ref=e10]
+        - button "Open search and help" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: ⌘
+          - generic [ref=e14]: Ask AI or search...
+          - generic [ref=e15]: AI
+        - generic [ref=e16]:
+          - button "Open BE-Bot assistant" [ref=e17] [cursor=pointer]:
+            - img [ref=e18]
+          - button "User" [ref=e23] [cursor=pointer]:
+            - img "User" [ref=e24]
+    - generic [ref=e25]:
+      - complementary [ref=e26]:
+        - navigation [ref=e31]:
+          - button "Overview" [ref=e32] [cursor=pointer]:
+            - img [ref=e34]
+          - button "Recent Activity" [ref=e36] [cursor=pointer]:
+            - img [ref=e38]
+          - button "Datasets" [ref=e40] [cursor=pointer]:
+            - img [ref=e42]
+          - button "Segments" [ref=e45] [cursor=pointer]:
+            - img [ref=e47]
+          - button "Suppression" [ref=e52] [cursor=pointer]:
+            - img [ref=e54]
+          - button "Email" [ref=e56] [cursor=pointer]:
+            - img [ref=e58]
+          - button "SMS" [ref=e60] [cursor=pointer]:
+            - img [ref=e62]
+          - button "WhatsApp" [ref=e64] [cursor=pointer]:
+            - img [ref=e66]
+          - button "Offers" [ref=e68] [cursor=pointer]:
+            - img [ref=e70]
+          - button "Pools" [ref=e72] [cursor=pointer]:
+            - img [ref=e74]
+          - button "Create Journey" [ref=e76] [cursor=pointer]:
+            - img [ref=e78]
+          - button "Active Journeys" [ref=e84] [cursor=pointer]:
+            - img [ref=e86]
+          - button "Drafts" [ref=e88] [cursor=pointer]:
+            - img [ref=e90]
+          - button "Email Campaigns" [ref=e92] [cursor=pointer]:
+            - img [ref=e94]
+          - button "SMS Campaigns" [ref=e96] [cursor=pointer]:
+            - img [ref=e98]
+          - button "Users & Roles" [ref=e100] [cursor=pointer]:
+            - img [ref=e102]
+      - main [ref=e110]:
+        - main [ref=e113]:
+          - generic [ref=e115]:
+            - generic [ref=e118]:
+              - generic [ref=e119]:
+                - img [ref=e121]
+                - generic [ref=e124]:
+                  - paragraph [ref=e125]: Broad Engage Workspace
+                  - paragraph [ref=e126]: Dashboard
+                  - paragraph [ref=e127]: Journeys, campaigns & engagement overview
+              - generic [ref=e128]:
+                - paragraph [ref=e131]: Updated 01:19 PM
+                - link "Create Journey" [ref=e132] [cursor=pointer]:
+                  - /url: /journeys/create
+                  - button "Create Journey" [ref=e133]:
+                    - img [ref=e135]
+                    - text: Create Journey
+            - generic [ref=e139]:
+              - paragraph [ref=e140]: Quick links
+              - generic [ref=e141]:
+                - link "Add journey" [ref=e142] [cursor=pointer]:
+                  - /url: /journeys/create
+                  - img [ref=e144]
+                  - text: Add journey
+                - link "Email campaign" [ref=e146] [cursor=pointer]:
+                  - /url: /campaigns/email
+                  - img [ref=e148]
+                  - text: Email campaign
+                - link "SMS campaign" [ref=e150] [cursor=pointer]:
+                  - /url: /campaigns/sms
+                  - img [ref=e152]
+                  - text: SMS campaign
+                - link "User and Role" [ref=e154] [cursor=pointer]:
+                  - /url: /settings/users
+                  - img [ref=e156]
+                  - text: User and Role
+                - link "Email template" [ref=e158] [cursor=pointer]:
+                  - /url: /channels/email/templates
+                  - img [ref=e160]
+                  - text: Email template
+                - link "ESP connections" [ref=e162] [cursor=pointer]:
+                  - /url: /channels/email/connections
+                  - img [ref=e164]
+                  - text: ESP connections
+                - link "SMS template" [ref=e166] [cursor=pointer]:
+                  - /url: /channels/sms/templates
+                  - img [ref=e168]
+                  - text: SMS template
+                - link "SSP accounts" [ref=e170] [cursor=pointer]:
+                  - /url: /channels/sms/sspaccount
+                  - img [ref=e172]
+                  - text: SSP accounts
+                - link "Dataset" [ref=e174] [cursor=pointer]:
+                  - /url: /data/datasets
+                  - img [ref=e176]
+                  - text: Dataset
+                - link "Segments" [ref=e178] [cursor=pointer]:
+                  - /url: /audience/segments
+                  - img [ref=e180]
+                  - text: Segments
+                - link "Suppressions" [ref=e182] [cursor=pointer]:
+                  - /url: /audience/suppression
+                  - img [ref=e184]
+                  - text: Suppressions
+  - alert [ref=e186]: /dashboard
+```

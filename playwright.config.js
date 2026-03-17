@@ -5,17 +5,21 @@ export default defineConfig({
   testDir: './tests',
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
-
+  timeout: 60 * 1000, // 60s per test (E2E with network/reCAPTCHA often needs more than default 30s)
   workers: process.env.CI ? 1 : undefined,
 
   /* Reporter settings */
-  reporter: [['html', { open: 'always' }]], // Isse test khatam hote hi report khud khul jayegi
+  reporter: [
+    ['html', { open: 'always' }],
+    ['allure-playwright'],
+    ['./failed-test-summary-reporter.js', { outputFile: 'test-results/test-execution-summary.md' }],
+  ],
 
   use: {
-    /* 1. Yahan badlav kiya gaya hai: 'on' karne se pass ho ya fail, hamesha trace banega */
+   
     trace: 'on', 
     
-    /* Screenshot aur Video bhi add kar sakte hain (optional) */
+  
     screenshot: 'on',
     video: 'on-first-retry',
   },
