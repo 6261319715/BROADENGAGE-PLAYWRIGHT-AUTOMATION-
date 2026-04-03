@@ -1,0 +1,87 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img "auth-logo" [ref=e7]
+        - generic [ref=e8]:
+          - paragraph [ref=e9]: Email Personalization at Scale -
+          - paragraph [ref=e10]: Data Insights from 10.9 Billion Sends
+          - paragraph [ref=e11]: Our Email Benchmarks Report reveals how
+          - paragraph [ref=e12]: personalization transforms engagement -
+          - paragraph [ref=e13]: and why it matters more than ever.
+      - img "auth-bg" [ref=e15]
+    - generic [ref=e17]:
+      - heading "Sign Up" [level=5] [ref=e18]
+      - generic [ref=e19]:
+        - textbox "Full Name" [ref=e22]: John Doe
+        - textbox "Organisation Name" [ref=e25]: Acme Inc
+        - textbox "Email ID" [ref=e28]: shivam123jatav@gmail.com
+        - textbox "Phone" [ref=e31]: "9876543210"
+        - generic [ref=e33]:
+          - textbox "Password" [ref=e34]: Test@1234
+          - button [ref=e36] [cursor=pointer]:
+            - img [ref=e37]
+        - generic [ref=e39] [cursor=pointer]:
+          - generic [ref=e40]:
+            - checkbox "I agree to receive product updates and promotional emails from our company." [checked] [ref=e41]
+            - img [ref=e42]
+          - paragraph [ref=e44]: I agree to receive product updates and promotional emails from our company.
+        - iframe [ref=e47]:
+          - generic [ref=f1e2]:
+            - generic [ref=f1e5]:
+              - link "Privacy" [ref=f1e6] [cursor=pointer]:
+                - /url: https://www.google.com/intl/en/policies/privacy/
+              - text: "-"
+              - link "Terms" [ref=f1e7] [cursor=pointer]:
+                - /url: https://www.google.com/intl/en/policies/terms/
+            - generic [ref=f1e8]:
+              - generic [ref=f1e9]:
+                - text: protected by
+                - strong [ref=f1e10]: reCAPTCHA
+              - generic [ref=f1e11]: "-"
+        - button [disabled]:
+          - progressbar:
+            - img
+        - generic [ref=e48]:
+          - paragraph [ref=e49]: Already have an account? Sign In
+          - paragraph [ref=e50]: © 2026 BroadEngage. All rights reserved.
+  - alert [ref=e51]
+  - iframe [active] [ref=e54]:
+    - dialog [ref=f4e3]:
+      - generic [ref=f4e4]:
+        - generic [ref=f4e7]:
+          - text: Select all squares with
+          - strong [ref=f4e8]: buses
+          - generic [ref=f4e9]: If there are none, click skip
+        - table [ref=f4e12]:
+          - rowgroup [ref=f4e13]:
+            - row [ref=f4e14]:
+              - button [ref=f4e15]
+              - button [ref=f4e18]
+              - button [ref=f4e21]
+              - button [ref=f4e24]
+            - row [ref=f4e27]:
+              - button [ref=f4e28]
+              - button [ref=f4e31]
+              - button [ref=f4e34]
+              - button [ref=f4e37]
+            - row [ref=f4e40]:
+              - button [ref=f4e41]
+              - button [ref=f4e44]
+              - button [ref=f4e47]
+              - button [ref=f4e50]
+            - row [ref=f4e53]:
+              - button [ref=f4e54]
+              - button [ref=f4e57]
+              - button [ref=f4e60]
+              - button [ref=f4e63]
+      - generic [ref=f4e69]:
+        - generic [ref=f4e70]:
+          - button "Get a new challenge" [ref=f4e72] [cursor=pointer]
+          - button "Get an audio challenge" [ref=f4e74] [cursor=pointer]
+          - button "Help" [ref=f4e76] [cursor=pointer]
+        - button "Skip" [ref=f4e78] [cursor=pointer]
+```

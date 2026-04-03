@@ -1,0 +1,51 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img "auth-logo" [ref=e7]
+        - generic [ref=e8]:
+          - paragraph [ref=e9]: Email Personalization at Scale -
+          - paragraph [ref=e10]: Data Insights from 10.9 Billion Sends
+          - paragraph [ref=e11]: Our Email Benchmarks Report reveals how
+          - paragraph [ref=e12]: personalization transforms engagement -
+          - paragraph [ref=e13]: and why it matters more than ever.
+      - img "auth-bg" [ref=e15]
+    - generic [ref=e17]:
+      - heading "Sign Up" [level=5] [ref=e18]
+      - generic [ref=e19]:
+        - paragraph [ref=e20]: Please correct the highlighted fields before continuing.
+        - generic [ref=e21]:
+          - textbox "Full Name" [ref=e23]
+          - paragraph [ref=e24]: Name is required
+        - generic [ref=e25]:
+          - textbox "Organisation Name" [ref=e27]
+          - paragraph [ref=e28]: Organisation name is required
+        - generic [ref=e29]:
+          - textbox "Email ID" [ref=e31]
+          - paragraph [ref=e32]: Email is required
+        - generic [ref=e33]:
+          - textbox "Phone" [ref=e35]
+          - paragraph [ref=e36]: Phone number is required
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - textbox "Password" [ref=e39]
+            - button [ref=e41] [cursor=pointer]:
+              - img [ref=e42]
+          - paragraph [ref=e44]: Password is required
+        - generic [ref=e45] [cursor=pointer]:
+          - generic [ref=e46]:
+            - checkbox "I agree to receive product updates and promotional emails from our company." [ref=e47]
+            - img [ref=e48]
+          - paragraph [ref=e50]: I agree to receive product updates and promotional emails from our company.
+        - generic [ref=e51]: You must accept the terms and conditions
+        - iframe [ref=e54]:
+          
+        - button "Sign Up" [active] [ref=e55] [cursor=pointer]: Sign Up
+        - generic [ref=e56]:
+          - paragraph [ref=e57]: Already have an account? Sign In
+          - paragraph [ref=e58]: © 2026 BroadEngage. All rights reserved.
+  - alert [ref=e59]
+```

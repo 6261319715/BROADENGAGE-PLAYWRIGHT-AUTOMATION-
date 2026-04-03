@@ -1,0 +1,160 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - button "Go to dashboard" [ref=e8] [cursor=pointer]:
+          - img "Logo" [ref=e10]
+        - button "Open search and help" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: ⌘
+          - generic [ref=e14]: Ask AI or search...
+          - generic [ref=e15]: AI
+        - generic [ref=e16]:
+          - button "Open BE-Bot assistant" [ref=e17] [cursor=pointer]:
+            - img [ref=e18]
+          - button "User" [ref=e23] [cursor=pointer]:
+            - img "User" [ref=e24]
+    - generic [ref=e25]:
+      - complementary [ref=e26]:
+        - navigation [ref=e31]:
+          - button "Overview" [ref=e32] [cursor=pointer]:
+            - img [ref=e34]
+          - button "Recent Activity" [ref=e36] [cursor=pointer]:
+            - img [ref=e38]
+          - button "Datasets" [ref=e40] [cursor=pointer]:
+            - img [ref=e42]
+          - button "Segments" [ref=e45] [cursor=pointer]:
+            - img [ref=e47]
+          - button "Suppression" [ref=e52] [cursor=pointer]:
+            - img [ref=e54]
+          - button "Email" [ref=e56] [cursor=pointer]:
+            - img [ref=e58]
+          - button "SMS" [ref=e60] [cursor=pointer]:
+            - img [ref=e62]
+          - button "WhatsApp" [ref=e64] [cursor=pointer]:
+            - img [ref=e66]
+          - button "Offers" [ref=e68] [cursor=pointer]:
+            - img [ref=e70]
+          - button "Pools" [ref=e72] [cursor=pointer]:
+            - img [ref=e74]
+          - button "Create Journey" [ref=e76] [cursor=pointer]:
+            - img [ref=e78]
+          - button "Active Journeys" [ref=e84] [cursor=pointer]:
+            - img [ref=e86]
+          - button "Drafts" [ref=e88] [cursor=pointer]:
+            - img [ref=e90]
+          - button "Email Campaigns" [ref=e92] [cursor=pointer]:
+            - img [ref=e94]
+          - button "SMS Campaigns" [ref=e96] [cursor=pointer]:
+            - img [ref=e98]
+          - button "WhatsApp Campaigns" [ref=e100] [cursor=pointer]:
+            - img [ref=e102]
+          - button "Users & Roles" [ref=e104] [cursor=pointer]:
+            - img [ref=e106]
+          - button "Subscription Plans" [ref=e118] [cursor=pointer]:
+            - img [ref=e120]
+      - main [ref=e123]:
+        - generic [ref=e125]:
+          - generic [ref=e127]:
+            - generic [ref=e128]:
+              - img [ref=e130]
+              - generic [ref=e133]:
+                - paragraph [ref=e134]: Broad Engage Workspace
+                - paragraph [ref=e135]: Dashboard
+                - paragraph [ref=e136]: Journeys, campaigns & engagement overview
+            - generic [ref=e137]:
+              - paragraph [ref=e140]: Updated 04:17 PM
+              - link "Create Journey" [ref=e141] [cursor=pointer]:
+                - /url: /journeys/create
+                - button "Create Journey" [ref=e142]:
+                  - img [ref=e144]
+                  - text: Create Journey
+          - generic [ref=e147]:
+            - generic [ref=e149]:
+              - paragraph [ref=e150]: Total Journeys
+              - paragraph [ref=e152]: "0"
+              - img [ref=e154]
+            - generic [ref=e156]:
+              - paragraph [ref=e157]: Active Journeys
+              - paragraph [ref=e159]: "0"
+              - img [ref=e161]
+            - generic [ref=e163]:
+              - paragraph [ref=e164]: Draft Journeys
+              - paragraph [ref=e166]: "0"
+              - img [ref=e168]
+            - generic [ref=e170]:
+              - paragraph [ref=e171]: Email Campaigns
+              - paragraph [ref=e173]: "0"
+              - img [ref=e175]
+            - generic [ref=e177]:
+              - paragraph [ref=e178]: SMS Campaigns
+              - paragraph [ref=e180]: "0"
+              - img [ref=e182]
+          - generic [ref=e184]:
+            - paragraph [ref=e185]: Quick links
+            - generic [ref=e186]:
+              - link "Add journey" [ref=e187] [cursor=pointer]:
+                - /url: /journeys/create
+                - img [ref=e189]
+                - text: Add journey
+              - link "Email campaign" [ref=e191] [cursor=pointer]:
+                - /url: /campaigns/email
+                - img [ref=e193]
+                - text: Email campaign
+              - link "SMS campaign" [ref=e195] [cursor=pointer]:
+                - /url: /campaigns/sms
+                - img [ref=e197]
+                - text: SMS campaign
+              - link "User and Role" [ref=e199] [cursor=pointer]:
+                - /url: /settings/users
+                - img [ref=e201]
+                - text: User and Role
+              - link "Email template" [ref=e203] [cursor=pointer]:
+                - /url: /channels/email/templates
+                - img [ref=e205]
+                - text: Email template
+              - link "ESP connections" [ref=e207] [cursor=pointer]:
+                - /url: /channels/email/connections
+                - img [ref=e209]
+                - text: ESP connections
+              - link "SMS template" [ref=e211] [cursor=pointer]:
+                - /url: /channels/sms/templates
+                - img [ref=e213]
+                - text: SMS template
+              - link "SSP accounts" [ref=e215] [cursor=pointer]:
+                - /url: /channels/sms/sspaccount
+                - img [ref=e217]
+                - text: SSP accounts
+              - link "Dataset" [ref=e219] [cursor=pointer]:
+                - /url: /data/datasets
+                - img [ref=e221]
+                - text: Dataset
+              - link "Segments" [ref=e223] [cursor=pointer]:
+                - /url: /audience/segments
+                - img [ref=e225]
+                - text: Segments
+              - link "Suppressions" [ref=e227] [cursor=pointer]:
+                - /url: /audience/suppression
+                - img [ref=e229]
+                - text: Suppressions
+          - generic [ref=e232]:
+            - generic [ref=e233]:
+              - paragraph [ref=e234]: Journeys Created
+              - generic [ref=e235]:
+                - group [ref=e236]:
+                  - button "24h" [ref=e237] [cursor=pointer]
+                  - button "7d" [pressed] [ref=e238] [cursor=pointer]
+                  - button "30d" [ref=e239] [cursor=pointer]
+                  - button "90d" [ref=e240] [cursor=pointer]
+                - generic [ref=e241]:
+                  - combobox [ref=e242] [cursor=pointer]: Daily
+                  - textbox: day
+                  - img
+                  - group
+                - button [ref=e243] [cursor=pointer]:
+                  - img [ref=e244]
+            - img [ref=e247]
+  - alert [ref=e248]: /dashboard
+```
